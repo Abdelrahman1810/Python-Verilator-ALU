@@ -13,7 +13,7 @@ This repository provides a **Verilator-based** testbench for an **ALU (Arithmeti
   - `SHIFT` (left/right based on `dir`)
   - `ROTATE` (left/right based on `dir`)
 - **VPW-based testbench** to automate verification.
-- **Bash script (`setup_and_run.sh`)** to install dependencies and run tests automatically.
+- **Bash script (`setup.sh`)** to install dependencies and run tests automatically.
 - Uses **Verilator** for simulation and **GTKWave** for waveform viewing.
 
 ---
@@ -52,7 +52,7 @@ source setup.sh
 │── ├── 📂 vpw/
 │── ├── │── __init__.py
 │── ├── │── testbench.hh
-│── setup_and_run.sh    
+│── setup.sh    
 │── README.md           
 │── Verilator.pdf       
 ```
@@ -73,10 +73,10 @@ make sim                     # simulation waveform on GTKWave without script
 make sim_script              # simulation waveform on GTKWave with script
 ```
 
-## 📝 Notes
-
-- If you modify the ALU design (ALU.v), you need to recompile it with Verilator.
-- The Bash script (setup_and_run.sh) automates everything, so you don’t have to install dependencies manually.
+> [!IMPORTANT]
+> - If you modify the ALU design (ALU.v), you need to recompile it with Verilator.
+> - The Bash script (setup.sh) automates everything, so you don’t have to install dependencies manually.
+> - to deactivate the vertiual environment you can run command
 
 ## 🤝 Contributing
 

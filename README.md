@@ -38,8 +38,8 @@ cd Python-Verilator-ALU
 This will install dependencies, extract the virtual environment, and run the testbench.
 
 ```sh
-chmod +x setup_and_run.sh
-source setup_and_run.sh
+chmod +x setup.sh
+source setup.sh
 ```
 
 ## 📜 File Structure

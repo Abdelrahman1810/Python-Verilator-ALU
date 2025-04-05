@@ -63,11 +63,14 @@ pip install pybind11
 cd example
 sudo chmod +x *
 
+clear
+echo "============================================="
 echo "Running ALU testbench..."
-make run
+echo "          make run"
 
 echo "Start WaveForm...(Without script)"
-make sim
+echo "          make sim"
 
 echo "Start WaveForm...(Without script)"
-make sim_script
+echo "          make sim_script"
+echo "============================================="

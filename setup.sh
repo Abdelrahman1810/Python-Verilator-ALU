@@ -71,6 +71,6 @@ echo "          make run"
 echo "Start WaveForm...(Without script)"
 echo "          make sim"
 
-echo "Start WaveForm...(Without script)"
+echo "Start WaveForm...(With script)"
 echo "          make sim_script"
 echo "============================================="

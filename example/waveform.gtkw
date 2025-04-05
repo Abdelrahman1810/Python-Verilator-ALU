@@ -1,0 +1,30 @@
+[*]
+[*] GTKWave Analyzer v3.3.116 (w)1999-2023 BSI
+[*] Mon Mar 24 08:36:27 2025
+[*]
+[dumpfile] "/home/salby/ALU-testbench-verilator/example/ALU.vcd"
+[dumpfile_mtime] "Mon Mar 24 08:35:22 2025"
+[dumpfile_size] 1460
+[savefile] "/home/salby/ALU-testbench-verilator/example/waveform.gtkw"
+[timestart] 8
+[size] 1666 859
+[pos] -27 -24
+*-4.400682 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 278
+[signals_width] 150
+[sst_expanded] 1
+[sst_vpaned_height] 247
+@22
+TOP.a[7:0]
+TOP.b[7:0]
+@28
+TOP.bypass_a
+TOP.bypass_b
+TOP.clk
+TOP.dir
+TOP.op[2:0]
+@22
+TOP.result[7:0]
+TOP.result_reg[7:0]
+[pattern_trace] 1
+[pattern_trace] 0
